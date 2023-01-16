@@ -54,6 +54,15 @@ time {
     margin-top: 25px;
 }
 
-.credits>p {
+.credits p {
     margin: 0px;
+}
+
+/* Testo articolo */
+.list-no-margin {
+    padding-left: 0px;
+}
+
+.list-no-margin li {
+    margin-left: 15px;
 }

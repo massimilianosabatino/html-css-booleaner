@@ -100,3 +100,32 @@ thead {
 tbody tr:nth-child(odd) {
     background-color: rgb(177, 229, 242);
 }
+
+
+/* Sezione correlati */
+.similar-title {
+    color: gray;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.similar {
+    width: 210px;
+    height: 160px;
+    color: white;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.similar-one {
+    background-image: url(../img/monitor.jpg);
+    background-size: cover;
+}
+
+.similar-two {
+    background-image: url(../img/graph.jpg);
+    background-size: cover;
+}

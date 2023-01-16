@@ -4,28 +4,35 @@ body {
 
 /* Sfondo intestazione*/
 header {
-    height: 175px;
+    height: 100px;
     background-color: #4EA0FF;
     background-image: url(../img/pattern.png);
+    background-size: auto 200px;
+    background-position: 70px top;
 }
 
 /* Logo testata */
 .logo {
-    max-height: 85px;
-    margin-left: 15px;
-    margin-top: 75px;
+    max-width: 200px;
+    margin-left: 5px;
+    margin-top: 40px;
 }
 
+article {
+    margin-left: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
 /* Titolo principale articolo */
 .main-title {
-    font-size: 70px;
+    font-size: 42px;
+    margin-top: 15px;
     margin-bottom: 0px;
 }
 
 /* Metadata articolo */
 .autor {
     color: gray;
-    font-size: 30px;
+    font-size: 16px;
     margin-top: 0px;
     margin-bottom: 0px;
 }
@@ -37,4 +44,8 @@ a {
 time {
     font-size: small;
     color: gray;
+}
+
+.media {
+    margin-top: 25px;
 }

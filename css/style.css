@@ -18,10 +18,12 @@ header {
     margin-top: 40px;
 }
 
+/* Contenitore articolo */
 article {
     margin-left: 5px;
     font-family: 'Times New Roman', Times, serif;
 }
+
 /* Titolo principale articolo */
 .main-title {
     font-size: 42px;
@@ -41,11 +43,17 @@ a {
     color: rgb(30, 160, 226);
     text-decoration: none;
 }
+
 time {
     font-size: small;
     color: gray;
 }
 
+/* Sezione foto e crediti */
 .media {
     margin-top: 25px;
+}
+
+.credits>p {
+    margin: 0px;
 }

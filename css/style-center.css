@@ -1,0 +1,139 @@
+body {
+    margin: 0 0 auto 0;
+}
+
+
+/* Sfondo intestazione*/
+header {
+    height: 100px;
+    background-color: #4EA0FF;
+    background-image: url(../img/pattern.png);
+    background-size: auto 200px;
+    background-position: 70px top;
+}
+
+
+/* Logo testata */
+#container-logo {
+    width: 1040px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo {
+    max-width: 200px;
+    margin-left: 5px;
+    margin-top: 40px;
+}
+
+
+/* Contenitore articolo */
+article {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    width: 1040px;
+}
+
+
+/* Titolo principale articolo */
+.main-title {
+    font-size: 42px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    letter-spacing: -1px;
+}
+
+
+/* Metadata articolo */
+.autor {
+    color: gray;
+    font-size: 16px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+a {
+    color: rgb(30, 160, 226);
+    text-decoration: none;
+}
+
+time {
+    font-size: small;
+    color: gray;
+}
+
+
+/* Sezione foto e crediti */
+.media {
+    margin-top: 25px;
+}
+
+.credits p {
+    margin: 0px;
+}
+
+
+/* Testo articolo */
+.list-no-margin {
+    padding-left: 0px;
+}
+
+.list-no-margin li {
+    margin-left: 15px;
+}
+
+
+/* Tabella articolo */
+table {
+    border-spacing: 0px;
+}
+.t-coll-left {
+    width: 25%;
+}
+
+.t-coll-center {
+    width: 25%;
+}
+
+.t-coll-right {
+    width: 50%;
+}
+
+thead {
+    background-color: rgb(32, 169, 229);
+    color: white;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: rgb(177, 229, 242);
+}
+
+
+/* Sezione correlati */
+.similar-title {
+    color: gray;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.similar {
+    width: 210px;
+    height: 160px;
+    color: white;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.similar-one {
+    background-image: url(../img/monitor.jpg);
+    background-size: cover;
+}
+
+.similar-two {
+    background-image: url(../img/graph.jpg);
+    background-size: cover;
+}

@@ -75,14 +75,19 @@ time {
 
 
 /* Testo articolo */
-.list-no-margin {
-    padding-left: 0px;
+/* correzioni esecizio
+*.list-no-margin {
+*    padding-left: 0px;
+*}
+*
+*.list-no-margin li {
+*    margin-left: 15px;
+*}
+*/
+ul {
+    padding: 0;
+    list-style-position: inside;
 }
-
-.list-no-margin li {
-    margin-left: 15px;
-}
-
 
 /* Tabella articolo */
 table {
